@@ -29,7 +29,21 @@
 }
 
 .header {
-    background-color: black;
+    background-image: linear-gradient(50deg, red, black);
+}
+
+.navbar-toggler {
+    background-color: rgb(37, 37, 189);
+    border: 4px solid rgb(171, 42, 42);
+}
+
+.navbar-toggler-icon {
+    font-size: 125%;
+}
+
+.navbar-toggler:hover {
+    background-color: gold;
+    transition: 0.5s;
 }
 
 /* Estilo a las cards del index */
@@ -47,20 +61,27 @@
     background-color: red;
 }
 
-.navbar-toggler {
-    background-color: rgb(37, 37, 189);
-    border: 4px solid rgb(171, 42, 42);
+.paginaPrincipal {
+    font-size: 25px;
+    text-decoration: underline;
+    transform: skew(-22deg);
+    text-align: center;
+
 }
 
-.navbar-toggler-icon {
-    font-size: 125%;
+.texto2 {
+    text-decoration: underline;
+    text-align: center;
 }
-
-.navbar-toggler:hover {
-    background-color: gold;
-    transition: 0.5s;
+.años{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: bold;
+    text-decoration: underline;
+    text-align: center;
 }
-
+.champions{
+    color: brown;
+}
 /* Estilo al footer para todos los html */
 .footer {
     display: flex;
@@ -194,7 +215,7 @@
 
 
 .section-uno h1 {
-    text-align: center; 
+    text-align: center;
     margin: auto;
     text-decoration: underline;
 
@@ -210,12 +231,12 @@
     width: auto;
 }
 
-.section-tres p{
+.section-tres p {
     width: auto;
     color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    
+
+
 }
 
 
