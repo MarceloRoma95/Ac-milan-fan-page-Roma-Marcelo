@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//El header y footer en comun con todas las html
+@import './secciones/header';
+@import './secciones/main-index';
+@import './secciones/footer';
+
+//El resto de las pages
+@import './views/contacto';
+@import './views/equipo';
+@import './views/historia';
+@import './views/palmares';

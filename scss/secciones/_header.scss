@@ -1,0 +1,42 @@
+/* header y navbar para todos los html */
+.navbar-brand img {
+    width: 220px;
+    height: 150px;
+}
+
+.nav-item a {
+    color: white;
+    &:hover{
+color: red;
+    }
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: red
+}
+
+.navbar-nav:hover {
+    color: red;
+
+}
+
+.header {
+    background-image: linear-gradient(50deg, red, black);
+}
+
+.navbar-toggler {
+    background-color: rgb(37, 37, 189);
+    border: 4px solid rgb(171, 42, 42);
+    &:hover{
+        background-color: gold;
+        transition: 0.5s;
+    }
+}
+
+.navbar-toggler-icon {
+    font-size: 125%;
+}
+
+

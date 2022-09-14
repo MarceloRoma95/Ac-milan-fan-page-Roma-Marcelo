@@ -1,0 +1,17 @@
+/* Estilo al footer para todos los html */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    a{
+        border: 3px solid black;
+        &hover{
+            background-color: black;
+        }
+    }
+}
+
+.btn {
+    background-color: rgb(102, 148, 176);
+    border: yellow 3px solid;
+}

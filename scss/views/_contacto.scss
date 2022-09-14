@@ -1,0 +1,104 @@
+/* pages contacto */
+.contacto {
+    font-size: 140%;
+    border: 1px solid rgb(201, 23, 23);
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    h1{
+        text-decoration: underline;
+
+    }
+
+
+}
+
+.form input:hover {
+    background-color: blue;
+    transition: 0.6s;
+
+}
+
+
+/* Parte de GRID al html CONTACTO */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header-g header-g header-g header-g"
+        "main-g main-g main-g main-g"
+        "footer-g footer-g footer-g footer-g"
+    ;
+    grid-template-rows: repeat(30vh 45vh 25vh);
+    grid-template-columns: repeat(100vw);
+
+
+}
+
+.header-g {
+    grid-area: header-g;
+}
+
+
+.main-g {
+    grid-area: main-g;
+}
+
+.footer-g {
+    grid-area: footer-g;
+}
+
+/* Media Query= mobile first */
+/* media para dispositivo mediano page Contacto */
+@media (min-width: 768px) {
+    .footer-g a {
+        background-color: blue;
+        color: orange;
+        border: solid green 1px;
+        font-weight: bold;
+    }
+
+    .footer-g a:hover {
+        background-color: yellow;
+        transition: 0.3s;
+    }
+
+    .main-g {
+        color: rgb(67, 31, 150);
+        background-color: rgb(0, 255, 47);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+    }
+
+}
+
+/* media para dispositivo grande page Contacto */
+@media (min-width: 1024px) {
+    .footer-g a {
+        background-color: darkviolet;
+        color: darkorange;
+        text-transform: uppercase;
+        font-weight: 600;
+        &:hover{
+            background-color: dodgerblue;
+            transition: 0.5s;
+            font-weight: 700;
+        }
+    }
+
+
+    .header-g a {
+        background-color: rgb(20, 45, 189);
+        border: 3px red solid;
+    }
+
+    .main-g {
+        font-style: italic;
+        color: green;
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+
+    }
+}
+
+

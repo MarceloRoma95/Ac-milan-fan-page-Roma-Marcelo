@@ -1,0 +1,15 @@
+//Extend
+%estiloPrincipal{
+    background-color: $celeste;
+    color: $turquesa;
+    font-family: $WorkSans;
+    text-align: center;
+}
+
+//MIXIN
+@mixin estiloTexto{
+font-size: 22px;
+font-family: $WorkSans;
+font-weight: 500;
+font-style: italic;
+}

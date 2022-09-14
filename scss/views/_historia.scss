@@ -1,0 +1,130 @@
+/* Page Historia */
+
+.mainHistoria {
+    h1 {
+        font-size: 250%;
+        text-align: center;
+        background-color: white;
+        border: 3px solid black;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: 150%;
+        text-align: center;
+        background-color: white;
+        border: 3px solid black;
+        margin: 20px;
+        padding: 10px;
+        text-decoration: underline;
+        border-radius: 10px;
+        font-style: italic;
+    }
+
+    p {
+        font-size: 150%;
+        text-align: center;
+        background-color: white;
+        border: 3px solid black;
+        padding: 30px;
+        margin: 20px;
+        font-style: italic;
+        border-radius: 3px;
+    }
+
+}
+
+
+.historiaMulti {
+    margin: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* Parte de GRID al html Historia */
+.grid-container2 {
+    display: grid;
+    grid-template-areas:
+        "header-g2 header-g2 header-g2 header-g2"
+        "main-g2 main-g2 main-g2 main-g2"
+        "footer-g2 footer-g2 footer-g2 footer-g2"
+    ;
+    grid-template-rows: repeat(30vh 45vh 25vh);
+    grid-template-columns: repeat(2, 50vw);
+
+
+}
+
+.header-g2 {
+    grid-area: header-g2;
+}
+
+
+.main-g2 {
+    grid-area: main-g2;
+}
+
+.footer-g2 {
+    grid-area: footer-g2;
+}
+
+/* Media Query= mobile first */
+/* media para dispositivo mediano page Historia */
+@media (min-width: 768px) {
+    .footer-g2 a {
+        background-color: rgb(255, 0, 174);
+        color: rgb(8, 0, 255);
+        border: solid green 1px;
+        font-weight: bold;
+
+        &hover {
+            background-color: rgb(156, 3, 3);
+            transition: 0.6s;
+        }
+    }
+
+
+    .main-g2 {
+        color: rgb(138, 150, 31);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 400;
+    }
+
+}
+
+/* media para dispositivo grande page Historia */
+@media (min-width: 1024px) {
+    .footer-g2 a {
+        background-color: darkviolet;
+        color: rgb(3, 3, 3);
+        text-transform: uppercase;
+        font-weight: 600;
+        &hover{
+            background-color: rgb(30, 255, 68);
+            transition: 0.5s;
+            font-weight: 900;
+        }
+    }
+
+  
+
+    .header-g2 a {
+        background-color: rgb(20, 45, 189);
+        border: 3px rgb(255, 0, 0) solid;
+    }
+
+    .main-g2 {
+        font-style: italic;
+        color: rgb(128, 51, 0);
+        text-decoration: underline;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+
+    }
+}

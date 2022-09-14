@@ -1,0 +1,38 @@
+/* Estilo a las cards del index */
+.row {
+    justify-content: center;
+}
+
+.card {
+    background-color: grey;
+    padding: 20px;
+    border: 3px black solid;
+}
+
+.card-body a:hover {
+    background-color: $azul;
+}
+
+.paginaPrincipal {
+    font-size: 25px;
+    text-decoration: underline;
+    transform: skew(-22deg);
+    text-align: center;
+    @extend %estiloPrincipal;
+
+}
+
+.texto2 {
+    text-decoration: underline;
+    text-align: center;
+    @include estiloTexto;
+}
+.años{
+    font-family: $WorkSans;
+    font-size: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.champions{
+    color: $marron;
+}
