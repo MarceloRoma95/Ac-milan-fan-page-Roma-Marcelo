@@ -1,0 +1,13 @@
+Se realizo KeyWords:
+-INDEX: content="Milan, futbol, italia, club, deporte"
+-CONTACTO: content="Completa el formulario para recibir mas informacion"
+-EQUIPO:content="equipo, jugadores, tecnico, partidos"
+-HISTORIA: content="La historia del respetado club italiano"
+-PALMARES: content="palmares, trofeos, campeonatos, ligas"
+
+Se realizo descripcion:
+-INDEX: "description" content="Ac Milan Fan Page es una nueva pagina para saber todo sobre el club"
+-CONTACTO: content="Completa el formulario para recibir mas informacion"
+-EQUIPO:content="Todo sobre las novedades de la plantilla del equipo"
+-HISTORIA: content="La historia del respetado club italiano"
+-PALMARES: content="Los logros obtenidos a lo largo de los años"
