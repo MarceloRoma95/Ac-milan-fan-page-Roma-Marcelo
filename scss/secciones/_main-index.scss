@@ -10,29 +10,41 @@
 }
 
 .card-body a:hover {
-    background-color: $azul;
+    background-color: red;
 }
 
 .paginaPrincipal {
     font-size: 25px;
     text-decoration: underline;
-    transform: skew(-22deg);
     text-align: center;
-    @extend %estiloPrincipal;
-
 }
 
 .texto2 {
     text-decoration: underline;
     text-align: center;
-    @include estiloTexto;
 }
-.años{
-    font-family: $WorkSans;
+.italia{
+     margin: 30px;
+     padding: 3px;
+     text-align: center;
+     border: 2px black solid;
+     border-radius: 3px;
+    
+}
+
+.años {
+    font-family: 'Times New Roman', Times, serif;
     font-size: bold;
     text-decoration: underline;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
-.champions{
-    color: $marron;
+
+.champions {
+     margin: 30px;
+     padding: 3px;
+     text-align: center;
+     border: 2px black solid;
+     border-radius: 3px;
+     font-family: 'Times New Roman', Times, serif;
 }

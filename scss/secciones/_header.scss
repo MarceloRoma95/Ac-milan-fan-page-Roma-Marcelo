@@ -1,11 +1,12 @@
 /* header y navbar para todos los html */
 .navbar-brand img {
-    width: 220px;
-    height: 150px;
+     width: 108px;
+     height: 140px;
 }
 
 .nav-item a {
-    color: white;
+    color: black;
+    font-weight: 500;
     &:hover{
 color: red;
     }
@@ -38,5 +39,4 @@ color: red;
 .navbar-toggler-icon {
     font-size: 125%;
 }
-
 
