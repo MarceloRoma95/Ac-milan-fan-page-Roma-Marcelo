@@ -14,7 +14,7 @@
   color: black;
   font-weight: 500; }
   .nav-item a:hover {
-    color: red; }
+    color: #0033ff; }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
@@ -262,7 +262,7 @@
   padding: 30px;
   margin: 20px;
   font-style: italic;
-  border-radius: 3px; }
+  border-radius: 10px; }
 
 .historiaMulti {
   margin: 21px;
@@ -348,12 +348,22 @@
   font-size: 300%;
   color: darkred; }
 
+.parrafoP {
+  margin: 30px;
+  padding: 3px;
+  text-align: center;
+  border: 2px black solid;
+  border-radius: 3px; }
+
 .champions7 {
   border: 5px solid red;
   text-align: justify;
   width: auto;
   text-align: center;
   text-decoration: underline; }
+
+.iframe2 {
+  margin: 50px; }
 
 /* Parte de GRID al html palmares */
 .grid-container4 {
@@ -376,14 +386,14 @@
 @media (min-width: 768px) {
   .footer-g4 a {
     background-color: #ff00ae;
-    color: #ff00ee;
+    color: #0c2a84;
     border: solid #889106 1px;
     font-weight: bold; }
     .footer-g4 ahover {
       background-color: #39039c;
       transition: 0.6s; }
   .main-g4 {
-    color: #96411f;
+    color: blue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400; } }
 
@@ -391,7 +401,7 @@
 @media (min-width: 1024px) {
   .footer-g4 a {
     background-color: #5b53b0;
-    color: #830b0b;
+    color: #084256;
     text-transform: uppercase;
     font-weight: 600; }
     .footer-g4 ahover {
@@ -399,11 +409,11 @@
       transition: 0.5s;
       font-weight: 900; }
   .header-g4 a {
-    background-color: #1474bd;
+    background-color: #971111;
     border: 3px #876464 solid; }
   .main-g4 {
     font-style: italic;
-    color: #477da4;
+    color: #030303;
     text-decoration: underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold; } }

@@ -28,6 +28,13 @@
     color: darkred;
 
 }
+.parrafoP{
+    margin: 30px;
+    padding: 3px;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 3px;
+}
 
 .champions7 {
     border: 5px solid red;
@@ -35,6 +42,9 @@
     width: auto;
     text-align: center;
     text-decoration: underline;
+}
+.iframe2{
+    margin: 50px;
 }
 
 
@@ -70,7 +80,7 @@
 @media (min-width: 768px) {
     .footer-g4 a {
         background-color: rgb(255, 0, 174);
-        color: rgb(255, 0, 238);
+        color: rgb(12, 42, 132);
         border: solid rgb(136, 145, 6) 1px;
         font-weight: bold;
 
@@ -82,7 +92,7 @@
 
 
     .main-g4 {
-        color: rgb(150, 65, 31);
+        color: rgb(0, 0, 255);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: 400;
     }
@@ -93,7 +103,7 @@
 @media (min-width: 1024px) {
     .footer-g4 a {
         background-color: rgb(91, 83, 176);
-        color: rgb(131, 11, 11);
+        color: rgb(8, 66, 86);
         text-transform: uppercase;
         font-weight: 600;
         &hover{
@@ -106,13 +116,13 @@
   
 
     .header-g4 a {
-        background-color: rgb(20, 116, 189);
+        background-color: rgb(151, 17, 17);
         border: 3px rgb(135, 100, 100) solid;
     }
 
     .main-g4 {
         font-style: italic;
-        color: rgb(71, 125, 164);
+        color: rgb(3, 3, 3);
         text-decoration: underline;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
