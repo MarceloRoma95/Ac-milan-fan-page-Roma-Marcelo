@@ -5,7 +5,8 @@
     font-style: italic;
     text-align: center;
     width: 100%;
-    h1{
+
+    h1 {
         text-decoration: underline;
 
     }
@@ -13,10 +14,14 @@
 
 }
 
-.form input:hover {
-    background-color: blue;
-    transition: 0.6s;
+.form input {
+    border: 2px solid red;
+    border-radius: 5px;
 
+    &hover {
+        background-color: blue;
+        transition: 0.6s;
+    }
 }
 
 
@@ -63,10 +68,14 @@
     }
 
     .main-g {
-        color: rgb(67, 31, 150);
-        background-color: rgb(0, 255, 47);
+        color: rgb(9, 21, 151);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 600;
+
+        input {
+            border: 2px solid red;
+            border-radius: 5px;
+        }
     }
 
 }
@@ -75,10 +84,11 @@
 @media (min-width: 1024px) {
     .footer-g a {
         background-color: darkviolet;
-        color: darkorange;
+        color: rgb(0, 0, 0);
         text-transform: uppercase;
         font-weight: 600;
-        &:hover{
+
+        &:hover {
             background-color: dodgerblue;
             transition: 0.5s;
             font-weight: 700;
@@ -93,12 +103,15 @@
 
     .main-g {
         font-style: italic;
-        color: green;
+        color: rgb(0, 0, 0);
         text-decoration: underline;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
 
+        input {
+            border: 2px solid red;
+            border-radius: 5px;
+        }
+
     }
 }
-
-

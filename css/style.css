@@ -103,9 +103,12 @@
   .contacto h1 {
     text-decoration: underline; }
 
-.form input:hover {
-  background-color: blue;
-  transition: 0.6s; }
+.form input {
+  border: 2px solid red;
+  border-radius: 5px; }
+  .form inputhover {
+    background-color: blue;
+    transition: 0.6s; }
 
 /* Parte de GRID al html CONTACTO */
 .grid-container {
@@ -135,16 +138,18 @@
     background-color: yellow;
     transition: 0.3s; }
   .main-g {
-    color: #431f96;
-    background-color: #00ff2f;
+    color: #091597;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600; } }
+    font-weight: 600; }
+    .main-g input {
+      border: 2px solid red;
+      border-radius: 5px; } }
 
 /* media para dispositivo grande page Contacto */
 @media (min-width: 1024px) {
   .footer-g a {
     background-color: darkviolet;
-    color: darkorange;
+    color: black;
     text-transform: uppercase;
     font-weight: 600; }
     .footer-g a:hover {
@@ -156,10 +161,13 @@
     border: 3px red solid; }
   .main-g {
     font-style: italic;
-    color: green;
+    color: black;
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold; } }
+    font-weight: bold; }
+    .main-g input {
+      border: 2px solid red;
+      border-radius: 5px; } }
 
 /* Pages equipo */
 .section-tres {
